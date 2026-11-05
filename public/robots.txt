@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://momtech.example.com/sitemap.xml

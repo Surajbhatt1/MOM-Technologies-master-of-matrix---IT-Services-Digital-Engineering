@@ -1,0 +1,148 @@
+import { ServiceItem } from '../types';
+
+export const servicesList: ServiceItem[] = [
+  {
+    id: 'web-development',
+    number: '01',
+    title: 'Web Development',
+    description:
+      'Responsive business websites, landing pages, portfolio sites, and performance-focused web experiences.',
+    tags: ['UI/UX', 'SEO Ready', 'Conversion'],
+    iconName: 'Globe',
+    accentColor: 'cyan',
+    badgeGradient: 'from-cyan-500/20 via-blue-500/10 to-transparent',
+    features: [
+      'Responsive modern architectures (React, Vite, Next.js)',
+      'Sub-second load times & Core Web Vitals optimization',
+      'High-converting landing pages and product showcases',
+      'Headless CMS integrations and content publishing workflows',
+      'Accessibility (WCAG AA) and responsive fluid design',
+    ],
+    deliverables: [
+      'Custom Responsive Websites',
+      'Campaign & Product Landing Pages',
+      'Portfolio & Corporate Showcase Portals',
+      'Web Performance & SEO Architecture',
+    ],
+  },
+  {
+    id: 'mobile-app-development',
+    number: '02',
+    title: 'Mobile App Development',
+    description:
+      'Android and cross-platform app experiences for customer-facing products and business workflows.',
+    tags: ['Android', 'Cross-platform', 'Launch'],
+    iconName: 'Smartphone',
+    accentColor: 'purple',
+    badgeGradient: 'from-purple-500/20 via-pink-500/10 to-transparent',
+    features: [
+      'High-performance Android and cross-platform applications',
+      'Offline-first synchronization and reliable background tasks',
+      'Clean native device hardware integration (camera, GPS, biometrics)',
+      'Real-time push notifications and user retention loops',
+      'Google Play Store deployment, submission, and maintenance',
+    ],
+    deliverables: [
+      'Android & Cross-Platform Mobile Apps',
+      'Business Workflow & Field Team Apps',
+      'Customer-Facing Loyalty & Booking Apps',
+      'Store Deployment & App Lifecycle Support',
+    ],
+  },
+  {
+    id: 'digital-marketing',
+    number: '03',
+    title: 'Digital Marketing',
+    description:
+      'SEO, social media, campaign pages, content direction, and practical growth support for online visibility.',
+    tags: ['SEO', 'Social', 'Campaigns'],
+    iconName: 'TrendingUp',
+    accentColor: 'emerald',
+    badgeGradient: 'from-emerald-500/20 via-teal-500/10 to-transparent',
+    features: [
+      'Comprehensive technical and on-page SEO infrastructure',
+      'Conversion-centered campaign landing page funnels',
+      'Social media strategy, visual asset creation, and content direction',
+      'Customer acquisition tracking and attribution modeling',
+      'A/B testing, user journey audits, and CRO experimentation',
+    ],
+    deliverables: [
+      'Search Engine Optimization (SEO)',
+      'High-Impact Campaign Funnels',
+      'Social Media Brand Assets & Strategy',
+      'Growth Analytics & Conversion Telemetry',
+    ],
+  },
+  {
+    id: 'ecommerce-solutions',
+    number: '04',
+    title: 'E-commerce Solutions',
+    description:
+      'Online stores, product catalogs, checkout flows, payment setup, and improvements that support sales.',
+    tags: ['Storefront', 'Checkout', 'Scale'],
+    iconName: 'ShoppingBag',
+    accentColor: 'blue',
+    badgeGradient: 'from-blue-500/20 via-indigo-500/10 to-transparent',
+    features: [
+      'Frictionless checkout experiences engineered to maximize cart completion',
+      'Multi-currency and local payment gateway integrations (Stripe, PayPal, etc.)',
+      'Structured product catalogs, inventory tracking, and variant management',
+      'Automated transactional emails, invoices, and shipping notifications',
+      'Customer accounts, order tracking, and recurring subscription systems',
+    ],
+    deliverables: [
+      'Modern Online Storefronts',
+      'Custom Product Catalogs & Checkout Flows',
+      'Payment Gateway & Tax Systems Integration',
+      'Cart Optimization & Retention Loops',
+    ],
+  },
+  {
+    id: 'custom-business-solutions',
+    number: '05',
+    title: 'Custom Business Solutions',
+    description:
+      'CRM-style tools, dashboards, automation, admin panels, and software shaped around business operations.',
+    tags: ['CRM', 'Automation', 'Dashboards'],
+    iconName: 'Cpu',
+    accentColor: 'amber',
+    badgeGradient: 'from-amber-500/20 via-orange-500/10 to-transparent',
+    features: [
+      'Bespoke CRM, lead tracking, and pipeline management portals',
+      'Executive analytics dashboards with interactive real-time data visualizers',
+      'Role-based access control (RBAC) and audit-logged admin consoles',
+      'Automated data synchronization between disjointed legacy systems',
+      'Custom business logic engines to replace manual spreadsheet processes',
+    ],
+    deliverables: [
+      'Tailored CRM & ERP Platforms',
+      'Executive Data & Telemetry Dashboards',
+      'Internal Admin & Operational Tooling',
+      'Multi-System API Webhook Orchestration',
+    ],
+  },
+  {
+    id: 'mass-sms-email-marketing',
+    number: '06',
+    title: 'Mass SMS & Email Marketing',
+    description:
+      'Bulk communication campaigns, customer outreach, promotional messaging, and lead nurturing flows.',
+    tags: ['SMS', 'Email', 'Outreach'],
+    iconName: 'Mail',
+    accentColor: 'indigo',
+    badgeGradient: 'from-indigo-500/20 via-purple-500/10 to-transparent',
+    features: [
+      'High-deliverability email infrastructure configured with SPF, DKIM, and DMARC',
+      'Two-way SMS broadcast campaigns and instant promotional alerts',
+      'Behavioral automated drip sequences and lead nurturing workflows',
+      'Audience segmentation, unsubscribe compliance, and list hygiene',
+      'Real-time engagement telemetry: open rates, click-throughs, and conversions',
+    ],
+    deliverables: [
+      'Bulk Email & Promotional Campaigns',
+      'Automated SMS Broadcast Pipelines',
+      'Lead Nurturing & Follow-Up Workflows',
+      'Campaign Analytics & Deliverability Audits',
+    ],
+  },
+];
